@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progawski - Front End Developer</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="style.css?v=1.8">
+</head>
+<body> 
+    <div id="load-container">
+        <div id="spinner">
+            <div class="spinner-circle"></div>
+            <div class="spinner-circle"></div>
+            <div class="spinner-circle"></div>
+            <div class="spinner-circle"></div>
+        </div>   
+    </div>
+    <div class="background">
+        <header>
+            <div class="header-fill">
+                <div class="header-fill-padding"></div>
+            </div>
+            <div class="logo-container">
+                <img id="header-logo" src="img/header-logo.png" alt="Logo">
+                <img id="chevron-border" src="img/chevron-border.png" alt="Chevron border">
+            </div>
+            <div id="menu-container"> 
+                <button id="menu-toggle-btn"><img src="img/toggle-icon.png" alt="Toggle icon"></button>
+                <ul id="menu">
+                    <li class="menu-item" data-link="about">About</li>
+                    <li class="menu-item" data-link="skills">Skills</li>
+                    <li class="menu-item" data-link="portfolio">Portfolio</li>
+                    <li class="menu-item" data-link="contact">Contact</li>
+                </ul>
+                <img id="chevron-right" src="img/chevron-right.png" alt="Chevron-right">
+            </div>
+        </header> 
+        <div id="content">  
+            <div class="photo-container">
+                <img id="photo" src="img/photo.png" alt="Photo">
+                <div class="title-container">
+                    <p class="green">Front End</p>
+                    <p>Developer</p>
+                </div>
+            </div>
+            <div id="about" class="section">
+                <div class="section-title-container">
+                    <span class="section-title">About</span><span class="section-title-chamfer"><span class="section-title-inner-chamfer"></span></span>
+                </div>
+                <div class="section-container">
+                    <div class="section-corner corner-right"></div>
+                    <div class="section-corner corner-left"></div>
+                    <div class="about-content">
+                        <p>Hello! I am Piotr and <span class="green">since 2019</span> I have been broadening my knowledge of creating websites.</p>
+                        <p>During this time I have learned a lot about <span class="green">HTML, CSS and JavaScript</span>, but I was also dealing with other technologies such as <span class="green">PHP or MySQL</span>. In the near future I intend to improve my JavaScript skills and learn more about <span class="green">React.js</span>.</p>
+                        <p>When creating my projects, I pay great attention to details. I always try to make them <span class="green">high quality</span>, both from the side of the written code and from the visual side.</p>
+                        <p>Apart from programming, I am also interested in <span class="green">computer graphics</span>. From time to time I create icons, logos and other types of graphics, mostly in a vector style.</p>
+                        <p>I associate my future with programming and I hope that soon I will be able to implement my plan and become a <span class="green">front-end developer</span>.</p>
+                    </div>
+                    <img class="corner-icon" src="img/about-icon.png" alt="About icon">
+                </div>
+            </div>
+            <div id="skills" class="section">
+                <div class="section-title-container">
+                    <span class="section-title">Skills</span><span class="section-title-chamfer"><span class="section-title-inner-chamfer"></span></span>
+                </div>
+                <div class="section-container">
+                    <div class="section-corner corner-right"></div>
+                    <div class="section-corner corner-left"></div>
+                    <div class="skills-content">
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">HTML</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">CSS</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">JS</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">RWD</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">PHP</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">jQuery</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">SASS</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">Bootstrap</span>
+                        </div>
+                        <div class="skill-container">
+                            <div class="skill-corner"></div>
+                            <span class="skill-name">GIT</span>
+                        </div>
+                    </div>
+                    <img class="corner-icon" src="img/skill-icon.png" alt="Skill icon">
+                </div>
+            </div>
+            <div id="portfolio" class="section">
+                <div class="section-title-container">
+                    <span class="section-title">Portfolio</span><span class="section-title-chamfer"><span class="section-title-inner-chamfer"></span></span>
+                </div>
+                <div class="section-container">
+                    <div class="section-corner corner-right"></div>
+                    <div class="section-corner corner-left"></div>
+                    <div class="portfolio-content">
+                        <div id="project-s2leaderboard" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">S2 Leaderboard</div>
+                                    <div class="project-skills">React.js</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="s2leaderboard/index.html" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                    <a href="https://github.com/progawski/s2leaderboard"><img src="img/github-icon.png" alt="Github icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-quickquiz" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">QuickQuiz</div>
+                                    <div class="project-skills">React.js</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="quickquiz/index.html" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                    <a href="https://github.com/progawski/quickquiz"><img src="img/github-icon.png" alt="Github icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-flexplayground" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">Flex Playground</div>
+                                    <div class="project-skills">HTML, SCSS, JavaScript</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="flexplayground/index.html" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                    <a href="https://github.com/progawski/flexplayground"><img src="img/github-icon.png" alt="Github icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-defacto" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">Biuro De Facto</div>
+                                    <div class="project-skills">HTML, CSS, jQuery</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="https://www.biurodefacto.pl/" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                </div>  
+                            </div>
+                        </div>
+                        <div id="project-shoppinglist" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">Shopping List</div>
+                                    <div class="project-skills">HTML, CSS, JavaScript</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="shoppinglist/index.html" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                    <a href="https://github.com/progawski/shoppinglist"><img src="img/github-icon.png" alt="Github icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-hiit" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">HIIT Timer</div>
+                                    <div class="project-skills">HTML, CSS, JavaScript</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="hiit/index.html" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                    <a href="https://github.com/progawski/hiit_timer"><img src="img/github-icon.png" alt="Github icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-royalgym" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">Royal Gym</div>
+                                    <div class="project-skills">HTML, CSS, Bootstrap, jQuery</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="royalgym/index.html" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                    <a href="https://github.com/progawski/royalgym"><img src="img/github-icon.png" alt="Github icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="project-korn" class="project-container">
+                            <div class="project-overlay">
+                                <div class="project-text">
+                                    <div class="project-name">KoRn</div>
+                                    <div class="project-skills">HTML, CSS, jQuery</div>
+                                </div>
+                                <div class="project-icons">
+                                    <a href="korn/index.html" target="_blank"><img src="img/link-icon.png" alt="Link icon"></a>
+                                    <a href="https://github.com/progawski/korn"><img src="img/github-icon.png" alt="Github icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="corner-icon" src="img/portfolio-icon.png" alt="Portfolio icon">
+                </div>
+            </div>
+            <div id="contact" class="section">
+                <div class="section-title-container">
+                    <span class="section-title">Contact</span><span class="section-title-chamfer"><span class="section-title-inner-chamfer"></span></span>
+                </div>
+                <div class="section-container">
+                    <div class="section-corner corner-right"></div>
+                    <div class="section-corner corner-left"></div>
+                    <form id="contact-form">
+                        <div class="contact-row">                    
+                            <div class="contact-col">
+                                <input type="text" id="name" placeholder="Fullname">
+                                <input type="email" id="email" placeholder="Email">
+                                <button type="button" id="send-btn">
+                                    <span>Send message</span>
+                                    <span class="spinner-btn"><span></span><span></span></span>
+                                </button>
+                            </div>
+                            <div class="contact-col">
+                                <textarea id="message" rows="8" placeholder="Message" maxlength="500"></textarea>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <span id="message-limit"></span>
+                        </div>
+                    </form>
+                    <img class="corner-icon" src="img/contact-icon.png" alt="Contact icon">
+                </div>
+            </div>
+            <footer>
+                COPYRIGHT © <span id="copyright-date"></span> PROGAWSKI
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+</html>
